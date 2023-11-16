@@ -1,35 +1,59 @@
-h1{color: steelblue;background-color: rgb(198, 200, 202); font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h2{color: steelblue; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large;}
-h3{color:steelblue; font-family:Arial, Helvetica, sans-serif; text-align: center; font-size: 10%}
-h4{color:black;background-color: rgb(198, 200, 202); font-family:Arial, Helvetica, sans-serif}
+h1 {
+    color: steelblue;
+    background-color: rgb(198, 200, 202); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-nav {background-color: white;}
+h2 {color: steelblue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:x-large;
+    }
 
-.navbar bg-body-tertiary fixed-top {width: 1500px;}
+h3 {color:steelblue; 
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    font-size: 10%
+    }
 
-#barra-navegacion {
-    display: flex;
-    justify-content:space-between ;
-}
+h4 {color:black;
+    background-color: rgb(198, 200, 202); 
+    font-family:Arial, Helvetica, sans-serif
+    }
 
-#d-block w-100 {height: 1000px; width: 150}
-
-
-
-#listanavegacion {
-    display: flex;
-    justify-content:space-between}
-
-#listanavegacion li a {
-    text-decoration: none;}
-
-#listanavegacion {color: black; list-style-type:none; font-size:100% ; text-align: center;}
 
 .listabarra {
-    font-size: 20px;
-    color: #000000;
-    margin: 20px;
-    text-align: center;
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-size: 18px;
+    margin-top:  15px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+    transition-duration: 0.5s
+    }
+
+    .listabarra:hover {
+    background: rgb(210, 237, 247);  
+    border-radius: 10px;
+    font-style: normal;
+    color: rgb(114, 113, 113);
+    padding: 5px;
+    }
+
+
+.navegador {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 100%;
+    height: 0 auto;
+    margin: 0 auto;
+    overflow: auto;
     }
 
 
@@ -38,13 +62,61 @@ nav {background-color: white;}
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    justify-content:space-around;
+    justify-content:center;
     align-items: flex-start;
     align-content: space-between;
     width: 100%;
     height: 0 auto;
-    margin: 0 auto
+    margin: 0 auto;
+    overflow: auto;
     }
+
+.titulos {
+    margin: 20px;
+    }
+
+.contactoseccion {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 100%;
+    height: 0 auto;
+    margin: 0 auto;
+    overflow: auto;
+    }
+
+.bannerredes {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+    align-content: space-between;
+    height: 0 auto;
+    margin: 0 auto;
+    overflow: auto;
+    }
+
+
+.diviconosredes {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 100%;
+    height: 0 auto;
+    margin: 10px;
+    overflow: auto;
+    }
+
 
 .caja1 {
     display: flex;
@@ -67,7 +139,8 @@ nav {background-color: white;}
     
     .caja1:hover {
     box-shadow: -5px 5px 5px 5px lightgray;
-    background: rgb(210, 237, 247);}
+    background: rgb(210, 237, 247);
+    }
 
 .caja2 {
     display: flex;
@@ -76,57 +149,119 @@ nav {background-color: white;}
     height: 450px;
     }       
      
-.listabarra {
-    transition-duration: 0.5s}
-
-    .listabarra:hover {
-    background: lightgray;  
-    border-radius: 5px;
-    font-style: normal;
-    color: white;
-    padding: 5px;
-    border: 1px solid lightgray}
-
 
 .subcaja1 {
     align-content: center;
-    margin: 10px}
+    margin: 10px
+    }
 
 
-ul {color: dodgerblue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: larger;}
+ul {color: dodgerblue; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: larger;
+    }
 
-p {color: darkslategrey;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;}
+p {color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    }
 
-form {font-family: Arial, Helvetica, sans-serif;}
+form {font-family: Arial, Helvetica, sans-serif;
+    }
 
 
 .seccioncontacto {
     display: flex;
-    justify-content:space-between;}
+    justify-content:space-between;
+    margin: 15px;
+    width: 100%;
+    }
 
 
-footer {background-color: #0097B2;}
+footer {background-color: #0097B2;
+    }
 
-#contacto {color: white;}
+#contacto {color: white;
+    }
+
+#formContacto {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    }
+
+body footer input {
+    font-size: medium;
+    margin-top:  15px;
+    border: 1px solid gray;
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;    
+    }
+
+body footer textarea {
+    font-size: medium;
+    margin-top:  15px;
+    border: 1px solid gray;
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;    
+    }
+
+#botoncarrito {
+    color: steelblue;
+    margin: 2px rgb(206, 205, 205);
+    }
+
+#botoncarrito:hover {
+    color: steelblue;
+    margin: 2px rgb(206, 205, 205);
+    transform: scale(1.2);
+    transition: all 0.3s;
+    }
+
+.botonEnviar {
+    font-size: medium;
+    background-color: white;
+    color: gray;
+    width: 150px;
+    transition: all 0.3s;  
+    padding: 5px;  
+    }
+
+.botonEnviar:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+    background-color: gray;
+    color: white;
+    }
+    
+#iconosredes {
+    color: white;
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+    }
 
 
-/* A partir de acá, configuración Media Queries - de 320px a 1024px*/ 
+/* A partir de acá, configuración Media Queries - de 320px a 480px y*/ 
 body {
     font-size: 16px;
     
 }
 
-.bodnavbar-brand {
-    width: 25%;
-    height: 25%;}
 
-@media (min-width:1024px) {
+@media (min-width:480px) {
     body {font-size:20px;
     }  
 
-    .bodnavbar-brand {
-    width: 75%;
-    height: 75%;}
+    .banner4 {
+    width:100%;
+    }
 }
 
-/* Intenté hacerlo pero no logré reflejarlo en la página*/
+
