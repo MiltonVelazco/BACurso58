@@ -20,6 +20,9 @@ h4 {color:black;
     font-family:Arial, Helvetica, sans-serif
     }
 
+.cuerpo {
+    padding: 0px;
+}
 
 .listabarra {
     text-decoration: none;
@@ -62,7 +65,7 @@ h4 {color:black;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    justify-content:center;
+    justify-content:space-between;
     align-items: flex-start;
     align-content: space-between;
     width: 100%;
@@ -88,6 +91,45 @@ h4 {color:black;
     margin: 0 auto;
     overflow: auto;
     }
+
+
+.formContacto {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 100%;
+    border: 15px;
+    }
+
+.seccioncontacto {
+    height:auto;
+
+}
+
+.botonarriba {
+    display: flex;
+    justify-content: right;
+    }
+
+#arriba {
+    color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px rgb(210, 237, 247);
+    background-color: rgb(210, 237, 247);
+    }
+
+    #arriba:hover {
+        transform: scale(1.05);
+        transition: all 0.3s;
+        background-color: gray;
+        color: white;
+        } 
 
 .bannerredes {
     padding: 0px;
@@ -169,28 +211,12 @@ p {color: darkslategrey;
 form {font-family: Arial, Helvetica, sans-serif;
     }
 
-
-.seccioncontacto {
-    display: flex;
-    justify-content:space-between;
-    margin: 15px;
-    width: 100%;
-    }
-
-
 footer {background-color: #0097B2;
     }
 
 #contacto {color: white;
     }
 
-#formContacto {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    }
 
 body footer input {
     font-size: medium;
@@ -199,7 +225,8 @@ body footer input {
     width: 230px;
     height: 40px;
     border-radius: 20px;
-    padding: 15px;    
+    padding: 15px; 
+    margin: 20px;   
     }
 
 body footer textarea {
@@ -209,7 +236,8 @@ body footer textarea {
     width: 230px;
     height: 40px;
     border-radius: 20px;
-    padding: 15px;    
+    padding: 10px;  
+    margin: 20px  
     }
 
 #botoncarrito {

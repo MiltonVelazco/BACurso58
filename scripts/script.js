@@ -2,7 +2,7 @@
 // -------------------------------
 
 // Busca un elemento con el ID "arriba" y lo almacena en la variable "arriba", quiere decir que lo guarda en la memoria de la compu.
-const arriba = document.etElementById("#arriba")
+const arriba = document.querySelector("#arriba")
 // Agrega un "escuchador de eventos" que espera a que hagas clic en el botón.
 arriba.addEventListener("click", () => {
     // Hace que la ventana (nuestra pág) se desplace a la posición vertical 0, nos lleva al inicio de la página.
